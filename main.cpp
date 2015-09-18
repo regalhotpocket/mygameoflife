@@ -25,14 +25,12 @@ int main()
 					if (userinput.button.button == SDL_BUTTON_RIGHT )
 					{
 						drag = false;
-						printf("off\n");
 					}
 					break;
 					
 				case SDL_MOUSEMOTION:
 					if (drag) 
 					{
-						printf("moving\n");
 						worldshiftx += userinput.motion.xrel;
 		  				worldshifty += userinput.motion.yrel;
 					}

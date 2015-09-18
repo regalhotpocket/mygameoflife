@@ -100,9 +100,9 @@ void click(int x, int y, char c)
 					grid[ x/zoom-worldshiftx ][ y/zoom-worldshifty  ] = 0;
 					break;
 			}
+			break;
 		case SDL_BUTTON_RIGHT: 
 			drag = true;
-			printf("on\n");
 			break;
 		
 	}
